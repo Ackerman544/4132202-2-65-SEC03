@@ -6,7 +6,7 @@
 ***/
 class FCMClientImplementation extends FCMClient{
 	constructor(){
-		super(["613845973059"])
+		super(["1054129357676"])
 	}
 	handleBackgroundMessage(serviceWorker, payload){
 		serviceWorker.registration.showNotification("Test Notification",{"body":payload.data.message});

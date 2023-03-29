@@ -4,3 +4,4 @@ self.importScripts('./fcm.js');
 self.importScripts('./fcm-client.js');
 const fcmClient = new FCMClientImplementation();
 fcmClient.initServiceWorker(self);
+
